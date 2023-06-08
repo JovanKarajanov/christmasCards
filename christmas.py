@@ -17,4 +17,5 @@ for name in names:
 with open(template, "w") as cards:
         cards.write(first_initial)
 
+card_file = os.path.join("christmasCards", "names.txt")
 print(cards)
